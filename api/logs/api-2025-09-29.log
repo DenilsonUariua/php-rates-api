@@ -1,0 +1,76 @@
+{
+    "timestamp": "2025-09-29 07:42:35",
+    "type": "Request",
+    "data": {
+        "original": {
+            "Unit Name": "Standard Room",
+            "Arrival": "15\/12\/2024",
+            "Departure": "20\/12\/2024",
+            "Occupants": 2,
+            "Ages": [
+                30,
+                28
+            ]
+        },
+        "transformed": {
+            "Unit Type ID": -2147483637,
+            "Arrival": "2024-12-15",
+            "Departure": "2024-12-20",
+            "Guests": [
+                {
+                    "Age Group": "Adult"
+                },
+                {
+                    "Age Group": "Adult"
+                }
+            ]
+        }
+    }
+}
+--------------------------------------------------------------------------------
+{
+    "timestamp": "2025-09-29 07:42:35",
+    "type": "Error",
+    "data": {
+        "message": "HTTP request failed: file_get_contents(https:\/\/dev.gondwana-collection.com\/Web-Store\/Rates\/Rates.php): Failed to open stream: No such file or directory"
+    }
+}
+--------------------------------------------------------------------------------
+{
+    "timestamp": "2025-09-29 07:48:11",
+    "type": "Request",
+    "data": {
+        "original": {
+            "Unit Name": "Standard Room",
+            "Arrival": "15\/12\/2024",
+            "Departure": "20\/12\/2024",
+            "Occupants": 2,
+            "Ages": [
+                30,
+                28
+            ]
+        },
+        "transformed": {
+            "Unit Type ID": -2147483637,
+            "Arrival": "2024-12-15",
+            "Departure": "2024-12-20",
+            "Guests": [
+                {
+                    "Age Group": "Adult"
+                },
+                {
+                    "Age Group": "Adult"
+                }
+            ]
+        }
+    }
+}
+--------------------------------------------------------------------------------
+{
+    "timestamp": "2025-09-29 07:48:11",
+    "type": "Error",
+    "data": {
+        "message": "HTTP request failed: file_get_contents(https:\/\/dev.gondwana-collection.com\/Web-Store\/Rates\/Rates.php): Failed to open stream: No such file or directory"
+    }
+}
+--------------------------------------------------------------------------------
